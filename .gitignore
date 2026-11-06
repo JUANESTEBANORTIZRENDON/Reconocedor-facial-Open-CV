@@ -1,0 +1,12 @@
+# Entorno virtual y caché
+.venv/
+__pycache__/
+*.pyc
+
+# Datos biométricos y modelo entrenado (no subir al repositorio)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+.vscode/
